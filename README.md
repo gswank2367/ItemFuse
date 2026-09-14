@@ -73,8 +73,9 @@ lib/
   session.ts             Signed ItemFuse session cookies
   steam.ts               Steam inventory, enrichment, and friends logic
 
-public/                   ItemFuse brand assets
-proxy.ts                 Canonical-host redirect logic
+docs/archive/patch-notes/ Historical implementation notes from the patch-based development phase
+public/                    ItemFuse brand assets
+proxy.ts                  Canonical-host redirect logic
 ```
 
 ## Environment variables
@@ -170,7 +171,7 @@ ItemFuse currently expects the existing Neon schema used by production. Core per
 
 ## Current development notes
 
-- The repository includes several historical `README-*.txt` patch notes from the development process. They are not required at runtime and can be moved into an archive/docs folder or removed in a later cleanup commit.
+- Historical patch notes from the early patch-based development workflow are archived under `docs/archive/patch-notes/` and are not required at runtime.
 - There is currently no GitHub Actions CI workflow in the repository. Production builds are validated through the local/Vercel build workflow.
 - Some provider-backed features degrade gracefully when their optional API key or provider plan is unavailable.
 
