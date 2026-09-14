@@ -1,4 +1,4 @@
-ItemFuse friend inventory rate-limit fix
+﻿ItemFuse friend inventory rate-limit fix
 
 Changes:
 - Friend inventory pages use Steam Data API's cached inventory endpoint first.

@@ -1,4 +1,4 @@
-TradeSync session + wishlist patch
+﻿TradeSync session + wishlist patch
 
 What this fixes/adds:
 - Steam session cookie is attached directly to the callback redirect response.

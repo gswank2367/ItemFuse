@@ -1,4 +1,4 @@
-TradeSync - Item picker + Friends CS2 filter patch
+﻿TradeSync - Item picker + Friends CS2 filter patch
 
 Changes:
 - Item search dropdown closes immediately after choosing an item.

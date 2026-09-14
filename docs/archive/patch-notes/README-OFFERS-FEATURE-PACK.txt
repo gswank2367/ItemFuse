@@ -1,4 +1,4 @@
-ItemFuse Offers & Negotiation Feature Pack
+﻿ItemFuse Offers & Negotiation Feature Pack
 
 Adds:
 - Structured multi-item trade offers

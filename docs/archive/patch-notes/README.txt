@@ -1,4 +1,4 @@
-TradeSync metadata patch
+﻿TradeSync metadata patch
 
 Adds:
 - Steam asset_properties ingestion

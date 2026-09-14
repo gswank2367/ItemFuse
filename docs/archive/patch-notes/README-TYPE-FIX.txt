@@ -1,4 +1,4 @@
-ItemFuse friend inventory TypeScript hotfix
+﻿ItemFuse friend inventory TypeScript hotfix
 
 Fixes the build error where cached Steam Data API blueGem fields could be undefined,
 while ItemDisplayData requires explicit null values.

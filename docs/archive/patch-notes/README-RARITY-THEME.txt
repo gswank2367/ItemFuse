@@ -1,4 +1,4 @@
-ItemFuse rarity color theming patch
+﻿ItemFuse rarity color theming patch
 
 Adds subtle CS2 rarity-based accents to the shared ItemDisplayCard component, which carries across Inventory, Friends inventories, Wishlist, Trades, Matches, Discover and offer detail pages wherever the shared card is used.
 

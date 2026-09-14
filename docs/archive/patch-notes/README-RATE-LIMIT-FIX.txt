@@ -1,4 +1,4 @@
-TradeSync Friends inventory scan — rate-limit/resume fix
+﻿TradeSync Friends inventory scan ΓÇö rate-limit/resume fix
 
 Changes:
 - Reduces Steam inventory probe batch size from 8 to 3.

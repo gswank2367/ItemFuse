@@ -1,4 +1,4 @@
-ItemFuse branding patch
+﻿ItemFuse branding patch
 
 This is a presentation/branding-only overlay for the existing app.
 

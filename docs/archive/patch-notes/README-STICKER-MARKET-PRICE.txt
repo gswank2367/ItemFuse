@@ -1,4 +1,4 @@
-TradeSync sticker market-price hover patch
+﻿TradeSync sticker market-price hover patch
 
 Why every applied sticker previously showed Price unavailable:
 Steam Data API's inventory response intentionally does not include prices for applied stickers. An applied sticker is permanently attached to a weapon and cannot be sold separately.

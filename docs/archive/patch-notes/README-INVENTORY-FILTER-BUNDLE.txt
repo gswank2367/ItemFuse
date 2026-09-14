@@ -1,4 +1,4 @@
-ItemFuse inventory filter + value + alignment bundle
+﻿ItemFuse inventory filter + value + alignment bundle
 
 Includes the previous card alignment fix plus:
 - search/filter toolbar on your Inventory page

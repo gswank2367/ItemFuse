@@ -1,4 +1,4 @@
-ItemFuse RGBA favicon/app-icon hotfix
+﻿ItemFuse RGBA favicon/app-icon hotfix
 
 Fixes Next.js/Turbopack build error:
   Processing image failed

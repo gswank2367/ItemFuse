@@ -1,4 +1,4 @@
-TradeSync — Trading + Steam Friends patch
+﻿TradeSync ΓÇö Trading + Steam Friends patch
 
 Adds:
 - Open to Offers button on tradable inventory items

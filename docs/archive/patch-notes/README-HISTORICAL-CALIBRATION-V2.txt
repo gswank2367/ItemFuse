@@ -1,4 +1,4 @@
-ItemFuse Appraisal Engine v2 — Historical Calibration
+﻿ItemFuse Appraisal Engine v2 ΓÇö Historical Calibration
 
 What it adds:
 - On-demand 90-day Steam median-sale history.

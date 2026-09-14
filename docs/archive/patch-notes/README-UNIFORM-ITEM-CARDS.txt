@@ -1,4 +1,4 @@
-TradeSync uniform item cards + details patch
+﻿TradeSync uniform item cards + details patch
 
 Adds:
 - Fixed-size item cards across Inventory, Friends, Wishlist, Trades, Matches and Discover.
