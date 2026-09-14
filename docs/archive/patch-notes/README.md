@@ -1,9 +1,9 @@
 # Historical ItemFuse patch notes
 
-This directory preserves implementation notes from ItemFuse's early patch-based development workflow.
+ItemFuse was originally developed through a series of incremental patch bundles. Those standalone `README-*.txt` and patch-note files have now been removed from the repository root to keep the production codebase clean.
 
-These files are kept for historical/reference purposes only. They are not required by the application at runtime and should not be treated as the current source of product documentation.
+Their original contents are still preserved permanently in Git history, including the initial production snapshot commit `4e9bda37616a17b29dbdb15f9d5c63e4c69f4932`. This directory serves as the archive index for that early patch-based development phase.
 
-For the current architecture, setup, security model, environment variables, and feature overview, use the repository's root `README.md`.
+The archived notes covered inventory enrichment, UI and branding changes, offers and direct-friend offers, wishlist/session fixes, Steam rate-limit handling, rarity theming, appraisal logic, historical calibration, and related implementation fixes.
 
-The archived notes include earlier work covering inventory enrichment, UI/branding changes, offer and direct-friend offer features, wishlist/session changes, rate-limit handling, rarity theming, appraisal logic, historical calibration, and related fixes.
+For current architecture, setup, environment variables, security behavior, and active features, use the repository root `README.md`.
