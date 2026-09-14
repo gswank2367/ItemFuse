@@ -1,0 +1,125 @@
+.rarityCard {
+  border-color: rgba(var(--rarity-rgb), 0.40) !important;
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.22),
+    0 0 24px rgba(var(--rarity-rgb), 0.055);
+  isolation: isolate;
+}
+
+.rarityCard::before {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  top: -1px;
+  left: 17%;
+  right: 17%;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--rarity-color), transparent);
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+.rarityCard:hover,
+.rarityCard:focus-visible {
+  border-color: rgba(var(--rarity-rgb), 0.78) !important;
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.34),
+    0 0 34px rgba(var(--rarity-rgb), 0.13) !important;
+}
+
+.rarityCard :global(.uniform-item-image) {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(var(--rarity-rgb), 0.25) 0%, rgba(var(--rarity-rgb), 0.10) 34%, transparent 68%),
+    #0e1a24 !important;
+}
+
+.rarityCard :global(.uniform-item-image)::after {
+  background: linear-gradient(90deg, transparent, rgba(var(--rarity-rgb), 0.34), transparent) !important;
+}
+
+.rarityCard :global(.uniform-summary-stats span) {
+  border-color: rgba(var(--rarity-rgb), 0.22) !important;
+}
+
+.rarityCard :global(.view-details-button),
+.rarityCard :global(.inspect) {
+  border-color: rgba(var(--rarity-rgb), 0.34) !important;
+}
+
+.rarityCard :global(.priced-cosmetic:hover),
+.rarityCard :global(.priced-cosmetic:focus-visible) {
+  border-color: rgba(var(--rarity-rgb), 0.70) !important;
+}
+
+.rarityBadge {
+  position: absolute;
+  z-index: 8;
+  left: 10px;
+  bottom: 10px;
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--rarity-rgb), 0.52);
+  background: rgba(5, 14, 21, 0.82);
+  color: var(--rarity-color);
+  box-shadow: 0 0 16px rgba(var(--rarity-rgb), 0.10);
+  backdrop-filter: blur(8px);
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.rarityModal {
+  border-color: rgba(var(--rarity-rgb), 0.58) !important;
+  box-shadow:
+    0 32px 100px rgba(0, 0, 0, 0.82),
+    0 0 54px rgba(var(--rarity-rgb), 0.11) !important;
+}
+
+.rarityModal :global(.item-modal-header) {
+  border-bottom-color: rgba(var(--rarity-rgb), 0.20) !important;
+}
+
+.rarityModal :global(.item-modal-image) {
+  border-color: rgba(var(--rarity-rgb), 0.34) !important;
+  background:
+    radial-gradient(circle at 50% 46%, rgba(var(--rarity-rgb), 0.25), transparent 64%),
+    #0d1820 !important;
+}
+
+.rarityModal :global(.item-modal-cosmetics .uniform-cosmetics),
+.rarityModal :global(.detail-property-grid span) {
+  border-color: rgba(var(--rarity-rgb), 0.20) !important;
+}
+
+.modalRarityLine {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 7px;
+  color: var(--rarity-color);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.modalRarityLine::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--rarity-color);
+  box-shadow: 0 0 12px rgba(var(--rarity-rgb), 0.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rarityCard {
+    transition: none !important;
+  }
+}

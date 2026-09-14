@@ -1,0 +1,20 @@
+TradeSync session + wishlist patch
+
+What this fixes/adds:
+- Steam session cookie is attached directly to the callback redirect response.
+- Vercel deployment-specific URLs canonicalize to the stable production hostname.
+- Optional APP_URL supports a future custom domain without changing auth code.
+- Missing sessions on app tabs redirect back to the sign-in landing page instead of a blank page.
+- New Wishlist tab stores wanted items independently from listings.
+- Wishlist supports exterior, phase/pattern, max float, value tolerance, and notes.
+- Reciprocal matching considers wishlist items in addition to listing-specific wants.
+- Friends' public inventory cards include Add to Wishlist.
+
+Database:
+The wishlist_items table has already been created in the connected Neon TradeSync database.
+No manual SQL is required for this patch.
+
+After applying:
+1. npm.cmd run build
+2. vercel.cmd --prod
+3. Sign in once through Steam again if the old session cookie was tied to another Vercel hostname.
